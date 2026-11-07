@@ -1,0 +1,23 @@
+# 本機工具與快取，勿上傳
+.codex-home/
+.claude/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+hfcache/
+.DS_Store
+*.swp
+
+# 題庫與答案：教師私有，不推送到公開 repo
+quiz/
+
+# 稽核報告與回覆：含答案，只留教師本機
+audits/
+
+# 校方文件：僅供課程申請使用
+doc/
+tools/
+ilearn/
+
+# 教師版實施計畫：只留本機
+PLAN.md
